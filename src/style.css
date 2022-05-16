@@ -1,13 +1,20 @@
 body {
   margin: 0;
   height: 100vh;
-  display: flex;]
+  display: flex;
   flex-direction: colum;
 }
 body * {
   border: .1px solid red;
 }
-
+button {
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background: transparent;
+}
 ul, li {
     padding: 0;
     list-style-type: none;
@@ -20,4 +27,12 @@ ul, li {
 }
 .menu {
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menuItem {
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
