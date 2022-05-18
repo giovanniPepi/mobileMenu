@@ -4,9 +4,6 @@ body {
   display: flex;
   flex-direction: colum;
 }
-body * {
-  border: .1px solid red;
-}
 button {
   border: none;
   margin: 0;
@@ -15,24 +12,25 @@ button {
   overflow: visible;
   background: transparent;
 }
-ul, li {
-    padding: 0;
-    list-style-type: none;
-    margin: 0;
+ul,
+li {
+  padding: 0;
+  list-style-type: none;
+  margin: 0;
 }
 .menuNav {
-  width: 100%;
-  flex: 1;
   align-self: flex-end;
+  width: 100%;
 }
 .menu {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: lightblue;
 }
-.menuItem {
-  height: 4rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.menuBtn {
+  height: 2rem;
+  width: 2rem;
 }
